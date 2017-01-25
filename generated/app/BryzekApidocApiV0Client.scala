@@ -1906,10 +1906,6 @@ package com.bryzek.apidoc.api.v0 {
 
 package com.bryzek.apidoc.api.v0 {
 
-  case class RequestOptions(
-    responseEnvelope: Boolean = false
-  )
-
   case class Response[T](
     status: Int,
     value: T,
